@@ -1,20 +1,20 @@
 #!/bin/bash
 #m2t.sh
 #./m2t.sh matrix.tsv
-if [ -d 'm2t' ]; then
-   rm -r m2t
-fi
+rm -rf m2t
 mkdir m2t
-fl=$(sed -n '1p' $1)
+fl=$(head -1 $1)
 read -ra nu <<< $fl
 for element in ${nu[@]}; do
     echo ${nu[i]} >> m2t/bl.tsv
     ((++i))
 done
-sed -i '1d' m2t/bl.tsv
+tail -n +2 >> m2t/blt.tsv
+mv m2t/blt.tsv m2t/bl.tsv
 cp $1 m2t/ta.txt
+tail -n +2 >> m2t/tat.txt
+mv m2t/tat.txt m2t/ta.txt
 mf=m2t/ta.txt
-sed -i '1d' $mf
 cut -f1 $mf > m2t/gl.tsv
 cut -f1 --complement $mf > m2t/tb.txt
 mfa=m2t/tb.txt
