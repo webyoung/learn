@@ -26,11 +26,9 @@ mv gtsv/gtr/mtxdt.tsv gtsv/gtr/mtxdb.tsv
 }
 
 ### Main script starts here
-if [ -d 'gtsv/gtr' ]; then
-   rm -r gtsv/gtr
-fi
-fa=gtsv/gn.tsv
+rm -rf gtsv/gtr
 mkdir gtsv/gtr
+fa=gtsv/gn.tsv
 cat $fa | cut -f 2 >> gtsv/gtr/mtxdb.tsv
 fb=gtsv/mt.mtx
 n=1
@@ -44,7 +42,7 @@ if [ $n -eq 3 ]; then
       break
 fi
 done < $fb
-sed '1,2d' $fb > gtsv/gtr/mtx.tsv
+head -2 $fb > gtsv/gtr/mtx.tsv
 fc=gtsv/gtr/mtx.tsv
 cs=1
 while read -r li;do
