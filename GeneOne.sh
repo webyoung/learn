@@ -136,7 +136,7 @@ paste res/ac/ge.txt res/ac/gb.txt res/ac/gc.txt >> res/ac/gd.txt
 }
 
 rm -rf res
-mkdir res
+mkdir res results
 cn=1
 while read f1 f2
 do
@@ -153,3 +153,5 @@ do
    fi
 gn=$((gn+1))
 done < $1
+cp res/ac/gd.txt results/glist.txt
+rm -r res
