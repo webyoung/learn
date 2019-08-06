@@ -1,6 +1,7 @@
 #!/bin/bash
-#one.sh gn.tsv Gata3
+#one.sh g.tsv Gata3
 #Please pay attention for the tab in the code line
+#In a fold, put g.tsv m.mtx and one.sh and qsub file to run it.
 
 myf()
 {
