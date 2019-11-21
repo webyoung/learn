@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Calculation for plasmid DNA volume prepared with PEI based transfection</h2>
+<P>Number of plasmid DNA base pair:
+</p>
+<P>pHelper:
+<input id="a1" type="text" value="18930" onblur="calculate()">
+</p>
+
+<P>pCap:
+<input id="a2" type="text" value="8209" onblur="calculate()">
+</p>
+
+<P>pAAV:
+<input id="a3" type="text" value="5078"  onblur="calculate()">
+</p>
+
+
+<P>Concentration of DNA sample (ug/ul):
+</p>
+<P>pHelper:
+<input id="a4" type="text" value="1618.5" onblur="calculate()">
+</p>
+
+<P>pCap:
+<input id="a5" type="text"  value="1459.8" onblur="calculate()">
+</p>
+
+<P>pAAV:
+<input id="a6" type="text" value="111.9" onblur="calculate()" onblur="calculate()">
+</p>
+
+<P>Molar ratios:</p>
+<P>pHelper:pCap:pAAV=</p>
+<P><input id="a7" type="text" size="2" value="5" onblur="calculate()">:<input id="a8" type="text" size="2" value="3" onblur="calculate()">:<input id="a9" type="text"  size="2" value="2" onblur="calculate()">
+</p>
+
+<P>Usualy, the total DNA for a 15-cm plate is 28 ug, for a 10-cm plate is 20 ug.
+</p>
+<P>Total DNA (ug):
+<input id="a10" type="text" value="28" size="3" onblur="calculate()" onblur="calculate()">&nbsp; Number of plate:<input type="number" id="a15" min="1" max="50" value="1" onblur="calculate()" >
+</p>
+
+
+<P>The ul number of each sample is as following:
+</p>
+<P>pHelper:
+<input id="a11" type="text"  />
+</p>
+<P>pCap:
+<input id="a12" type="text" />
+</p>
+
+<P>pAAV:
+<input id="a13" type="text" onblur="calculate()">
+</p>
+
+<P>Ration of DNA:PEI (w/w)=&nbsp;<input id="a16" type="text" size="2" value="1" onblur="calculate()">:<input id="a17" type="text" size="2" value="2.7" onblur="calculate()"></p>
+
+
+<P>Concentration of PEI (mg/ml):&nbsp;<input id="a18" type="text" size="2" value="1" onblur="calculate()"></p>
+
+
+<P>The ul number of PEI:&nbsp;<input id="a14" type="text"></p>
+
+<P>For a 10-cm plate, in a 1.5 ml tube add 200 ul of medium and add the total 20ug DNA, mix it well, and put aside in room temperature, in another 1.5 ml add 200 ul of medium and add 54 ul of 1 mg/ml PEI, mix it well, then asorb all this mixed PEI solution add into the tube containning DNA solution, mix it well and put it in room temperation for 10-15 min, drop the DNA and PEI mixture into the cell and continue culture cells for 48 hours or more.
+</p>
+<P>Any suggestion, please contact with Mingjie Yang by: yangmingjie@yahoo.com</p>
+
+<script>
+calculate = function()
+{
+    var nph = document.getElementById('a1').value;
+    var npc = document.getElementById('a2').value;
+    var npa = document.getElementById('a3').value;
+    var rph = document.getElementById('a7').value;
+    var rpc = document.getElementById('a8').value;
+    var rpa = document.getElementById('a9').value;
+    var tnp = nph*rph + npc*rpc + npa*rpa;
+    var tdn = document.getElementById('a10').value;
+    var cph = document.getElementById('a4').value;
+    var cpc = document.getElementById('a5').value;
+    var cpa = document.getElementById('a6').value;
+    var npl = document.getElementById('a15').value;
+    var rdna = document.getElementById('a16').value;
+    var rpei = document.getElementById('a17').value;
+    var cpei = document.getElementById('a18').value;
+
+    document.getElementById('a11').value =parseFloat(nph*rph/tnp*tdn*1000/cph*npl).toFixed(1);
+    document.getElementById('a12').value =parseFloat(npc*rpc/tnp*tdn*1000/cpc*npl).toFixed(1);
+    document.getElementById('a13').value =parseFloat(npa*rpa/tnp*tdn*1000/cpa*npl).toFixed(1);
+    document.getElementById('a14').value =parseFloat(tdn*rpei/rdna*npl/cpei).toFixed(1);
+
+     
+   }
+</script>
+
+</body>
+</html> 
