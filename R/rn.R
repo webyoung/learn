@@ -14,7 +14,7 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install packages
-        run: Rscript install.R
+        run: Rscript R/install.R
       - name: Run R script
         run: Rscript R/rn.R
       - name: Commit results
