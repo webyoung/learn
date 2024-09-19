@@ -16,7 +16,7 @@ jobs:
       - name: Install packages
         run: Rscript R/install.R
       - name: Run R script
-        run: Rscript R/rp.R
+        run: Rscript R/p.R
       - name: Commit results
         run: |
           git commit data.csv --allow-empty -m 'gHA build: ${{github.run_number}}' || echo "No changes to commit"
