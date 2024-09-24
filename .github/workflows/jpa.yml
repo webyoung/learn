@@ -1,7 +1,5 @@
+name: Run R script b
  on: [push]
-
-
-name: 01-rscript
 
 jobs:
   run-r-script:
