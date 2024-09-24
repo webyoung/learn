@@ -1,0 +1,60 @@
+name,url,description,stars,forks,open_issues
+quarto-cli,https://github.com/quarto-dev/quarto-cli,Open-source scientific and technical publishing system built on Pandoc.,3780,309,1322
+quarto-nvim,https://github.com/quarto-dev/quarto-nvim,Quarto mode for Neovim,346,12,9
+quarto,https://github.com/quarto-dev/quarto,Quarto open-source scientific and technical publishing system,314,26,212
+quarto-web,https://github.com/quarto-dev/quarto-web,Quarto website,279,781,25
+quarto-actions,https://github.com/quarto-dev/quarto-actions,NA,220,51,38
+quarto-r,https://github.com/quarto-dev/quarto-r,R interface to quarto-cli,144,22,57
+shinylive,https://github.com/quarto-ext/shinylive,Quarto extension to embed Shinylive for Python applications,141,8,33
+quarto-emacs,https://github.com/quarto-dev/quarto-emacs,An emacs mode for quarto: https://quarto.org,128,14,13
+quarto-vscode,https://github.com/quarto-dev/quarto-vscode,Quarto extension for VS Code,112,11,0
+fontawesome,https://github.com/quarto-ext/fontawesome,Use Font Awesome icons in HTML and PDF documents.,104,10,9
+lightbox,https://github.com/quarto-ext/lightbox,Create lightbox treatments for images in your HTML documents.,75,4,7
+article-format-template,https://github.com/quarto-journals/article-format-template,Template for creating a new journal article format for Quarto ,66,13,10
+typst-templates,https://github.com/quarto-ext/typst-templates,Repository of Typst templates for Quarto,56,5,7
+quarto-vim,https://github.com/quarto-dev/quarto-vim,Rmarkdown support for vim,55,11,4
+include-code-files,https://github.com/quarto-ext/include-code-files,Quarto extension to include code from source files.,52,6,9
+elsevier,https://github.com/quarto-journals/elsevier,Quarto template for Elsevier Journals,49,20,15
+quarto-gallery,https://github.com/quarto-dev/quarto-gallery,NA,41,24,2
+latex-environment,https://github.com/quarto-ext/latex-environment,Quarto extension to output custom LaTeX environments.,31,5,8
+pointer,https://github.com/quarto-ext/pointer,A very simple RevealJS plugin extension that adds support for switching the cursor to a 'pointer' style element while presenting.,29,5,1
+jss,https://github.com/quarto-journals/jss,Quarto template for the Journal of Statistical Software,22,5,4
+jupyterlab-quarto,https://github.com/quarto-dev/jupyterlab-quarto,Quarto JupyterLab Extension,19,2,5
+manuscript-template-rstudio,https://github.com/quarto-ext/manuscript-template-rstudio,NA,18,10,0
+plos,https://github.com/quarto-journals/plos,Quarto template for Public Library of Science,18,3,11
+quarto-sublime,https://github.com/quarto-dev/quarto-sublime,NA,17,2,3
+quarto-python,https://github.com/quarto-dev/quarto-python,Python interface to quarto-cli,16,4,4
+quarto-julia,https://github.com/quarto-dev/quarto-julia,Julia interface to quarto-cli,16,0,6
+attribution,https://github.com/quarto-ext/attribution,Display attribution text sideways along the right edge of Revealjs slides.,16,0,5
+acm,https://github.com/quarto-journals/acm,Quarto template for the Association of Computing Machinery,16,9,24
+quarto-examples,https://github.com/quarto-dev/quarto-examples,A repository of self-contained quarto examples,13,2,1
+netlify-plugin-quarto,https://github.com/quarto-dev/netlify-plugin-quarto,NA,12,1,5
+jasa,https://github.com/quarto-journals/jasa,Quarto template for the American Statistical Association Journals,12,8,1
+manuscript-template-vscode,https://github.com/quarto-ext/manuscript-template-vscode,NA,11,4,0
+fancy-text,https://github.com/quarto-ext/fancy-text,Output nicely formatted versions of fancy strings such as LaTeX and BibTeX in multiple formats.,10,1,0
+quarto-shortcodes,https://github.com/quarto-dev/quarto-shortcodes,NA,8,2,2
+quarto-cli-pypi,https://github.com/quarto-dev/quarto-cli-pypi,Produces `quarto-cli` python package on PyPi,4,0,0
+example-project-quarto-netlify-plugin,https://github.com/quarto-dev/example-project-quarto-netlify-plugin,A minimal Quarto project using Quarto's Netlify plugin,4,1,0
+holder,https://github.com/quarto-ext/holder,Quarto extension to create placeholder images,4,0,0
+agu,https://github.com/quarto-journals/agu,Quarto template for the American Geophysical Union,4,0,0
+acs,https://github.com/quarto-journals/acs,Quarto template for the American Chemical Society,4,2,1
+biophysical-journal,https://github.com/quarto-journals/biophysical-journal,Quarto template for Biophysical journal,4,2,0
+manuscript-template-jupyter,https://github.com/quarto-ext/manuscript-template-jupyter,NA,3,1,0
+quarto-release-bundles,https://github.com/quarto-dev/quarto-release-bundles,Chocolatey package for Quarto,2,0,4
+gridtables,https://github.com/quarto-dev/gridtables,Haskell parser for reStructuredText-style grid tables.,2,1,5
+vscode-markdown-tm-grammar,https://github.com/quarto-dev/vscode-markdown-tm-grammar,VS Code built-in markdown extension's Textmate grammar,1,0,0
+quarto-pub-subdomain-site,https://github.com/quarto-dev/quarto-pub-subdomain-site,The [subdomain].quarto.pub website,1,0,0
+quarto-repo-template,https://github.com/quarto-dev/quarto-repo-template,"Repository template with readme styling, issue templates, etc",1,0,0
+deno-dom-apple-silicon,https://github.com/quarto-dev/deno-dom-apple-silicon,Browser DOM & HTML parser in Deno,0,0,0
+quarto_echo_kernel,https://github.com/quarto-dev/quarto_echo_kernel,A simple example kernel for Jupyter (showcasing some quarto-specific features),0,1,0
+Quarto-Pub,https://github.com/quarto-dev/Quarto-Pub,Quarto Pub,0,0,4
+external-asg017-unofficial-observablehq-compiler,https://github.com/quarto-dev/external-asg017-unofficial-observablehq-compiler,A fork of @asg017's unofficial compiler for Observable notebook syntax,0,1,0
+external-kpdecker-jsdiff,https://github.com/quarto-dev/external-kpdecker-jsdiff,A javascript text differencing implementation.,0,0,0
+external-observablehq-runtime,https://github.com/quarto-dev/external-observablehq-runtime,A fork of the Observable dataflow runtime.,0,0,0
+external-observablehq-stdlib,https://github.com/quarto-dev/external-observablehq-stdlib,A fork of ObservableHQ's Observable standard library.,0,0,0
+external-d3-d3-require,https://github.com/quarto-dev/external-d3-d3-require,"A minimal, promise-based implementation to require asynchronous module definitions.",0,0,0
+external-observablehq-parser,https://github.com/quarto-dev/external-observablehq-parser,The Observable parser.,0,0,0
+vscode-mermaid-syntax-highlight,https://github.com/quarto-dev/vscode-mermaid-syntax-highlight,Markdown syntax support for the Mermaid charting language,0,0,0
+package_control_channel,https://github.com/quarto-dev/package_control_channel,Default channel file for Package Control. Follow the directions at:,0,0,0
+.github,https://github.com/quarto-ext/.github,Organization profile README source,0,0,0
+.github,https://github.com/quarto-journals/.github,NA,0,1,1
