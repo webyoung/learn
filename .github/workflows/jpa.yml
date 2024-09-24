@@ -1,7 +1,6 @@
 name: Run R script b
- on: push
-
- jobs:
+on: push
+jobs:
   run-r-script:
     runs-on: ubuntu-latest
     env:
