@@ -35,7 +35,7 @@ quarto_repos <- quarto_repos_raw |>
 
 # write CSV file with the result
 quarto_repos |>
-  readr::write_csv("01-monitoring-quarto-repos/quarto_repos.csv")
+  readr::write_csv("R/s.csv")
 
 # write the README.md file
 
