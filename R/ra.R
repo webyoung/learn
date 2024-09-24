@@ -54,6 +54,6 @@ format(Sys.Date(), '%b %d %Y'),
 <hr> \n
 ",
 paste(table, collapse = "\n")
-) |> writeLines("README.md")
+) |> writeLines("R/README.md")
 
 print("The end! Congrats!")
