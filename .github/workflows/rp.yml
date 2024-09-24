@@ -1,4 +1,4 @@
-on:
+Name: plot1
   on: push
     branches: main
 
