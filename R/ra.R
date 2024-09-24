@@ -54,6 +54,6 @@ format(Sys.Date(), '%b %d %Y'),
 <hr> \n
 ",
 paste(table, collapse = "\n")
-) |> writeLines("01-monitoring-quarto-repos/README.md")
+) |> writeLines("README.md")
 
 print("The end! Congrats!")
