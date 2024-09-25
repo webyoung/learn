@@ -14,11 +14,11 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages: |
-            any::gh
+            #any::gh
             any::dplyr
             any::tidyr
-            any::readr
-            any::knitr
+            #any::readr
+            #any::knitr
 
       - name: Execute Script
         run: |
